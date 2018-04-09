@@ -1,0 +1,166 @@
+.panel-primary>.panel-heading {
+    background-color: black;
+    border-color: white;
+}
+
+.panel-primary {
+    border-color: white;
+}
+
+.btn-primary {
+    background-color:black;
+    border-color: white;
+}
+
+body {
+       background: url('../img/trainback.jpg') no-repeat center center fixed;
+       -webkit-background-size: cover;
+       -moz-background-size: cover;
+       -o-background-size: cover;
+       background-size: cover;
+  }
+
+table {
+    border-collapse: separate;
+    border-spacing: 6px;
+}
+
+.jumbotron {
+    color: white;
+    background-color: rgba(0,0,0,0.4);
+    height: 160px;
+    padding: 15px 0 0 0;
+}
+
+.text-center {
+    font-family: 'Great Vibes', cursive;
+    word-spacing: 2px;
+    letter-spacing: 4px;
+}
+
+.underLine {
+    color:white;
+    width: 48%;
+    margin: 0px auto 10px auto;
+}
+
+.train-schedule {
+    width: 90%;
+    margin: auto;
+}
+
+@media screen and (max-width: 767px) and (min-width: 0px) {
+th, label {
+    font-size: 8pt;
+}
+
+form {
+    height: 320px;
+}
+
+input, .form-control, .form-group, #name-input {
+    font-size: 8pt;
+    padding: 0 5px 0 0;
+}
+
+td.col-sx-2, td.col-sx-2, .col-sx-2 {
+    padding: 0 0 0 0;
+    width: 10%;
+}
+
+.jumbotron {
+    color: white;
+    background-color: rgba(0,0,0,0.3);
+    height: 120px;
+    }
+
+div.jumbotron {
+    padding: 10px 0 0 5px;
+}
+
+.text-center .h1 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 28pt !important;
+    word-spacing: 2px;
+    letter-spacing: 4px;
+}
+
+.h1, h1 {
+    font-size: 36pt;
+    margin: 25px 0 0 0;
+}
+
+h3, .panel-title {
+    font-size: 11pt;
+}
+
+td.col-xs-3, td.col-xs-2, th.col-xs-2 {
+    padding: 0px;
+}
+
+td.col-xs-1 {
+    padding: 0px;
+}
+
+th.col-xs-3 {
+    padding: 0px;
+}
+
+.col-xs-1 {
+    padding: 0px;
+}
+
+tr {
+  width: 90%;
+} 
+
+/* div.panel-body {
+    padding: 1px 18px 5px 6px;
+} */
+
+.panel, .panel-primary {
+    width: 100%;
+}
+
+.underLine {
+    color:white;
+    width: 80%;
+    margin: 2px auto;
+}
+
+body {
+    background: url('../img/trainback.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: 100% cover;
+}
+
+.col-xs-1 {
+    padding-left: 20px;
+}
+
+.train-schedule {
+    width: 90%;
+    margin: 0;
+    padding: 0;
+}
+
+tbody {
+    margin: 0 0 0 5px;
+}
+
+div.panel-body {
+    padding: 5px 0 0 4px;
+}
+
+btn, .btn-primary .btn-sm, #add-train {
+    padding: 5px 10px;
+    margin: 2px 2px 0 10px;
+}
+
+label {
+  padding: 0 0 0 5px;
+}
+
+}
